@@ -1,0 +1,61 @@
+.edit {
+    background-image: url(mobile.jpg);
+    margin: 20px 20px;
+    float:right;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:white;
+    background-color:rgb(224, 60, 60);
+    border-radius: 20px;
+    height:5vh;
+    width:15vw;
+    cursor: pointer;
+    font-weight: bold;
+}
+#option{
+    margin: 80px 1000px;
+    display:none;
+    position: absolute;
+    background-color: white;
+    width:13vw;
+    height:30vh;
+    border-radius: 10px;
+}
+.options{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#option li{
+    margin-right: 5px;
+    border-bottom:2px solid black;
+    list-style-type:disc;
+    padding:7px;
+}
+#option li:hover{
+    background-color: grey;
+}
+.gallery{
+    padding-right:7vh;
+    padding-top:-50vh;
+}
+.gallery .left{
+    float:left;
+    height:200px;
+    width:200px;
+}
+.gallery .right{
+    float:right;
+    height:200px;
+    width:200px;
+}
+.contain{
+    border:2px solid black;
+    height:250px;
+    width:200px;
+}
+.price{
+    padding:0px;
+}

@@ -1,0 +1,75 @@
+body{
+    background-image: url(wall.jpg);
+    background-size: cover;
+}
+
+
+.home{
+    
+   
+    background-image: url(mobile.jpg);
+    height: 100vh;
+    width: 100vw;
+    
+}
+.home .navigation{
+    float:right;
+    display: flex;
+    list-style-type: none;
+    margin-top: 40px;
+}
+.navi .nav {
+    color:black;
+    text-decoration:none;
+}
+.home .navigation li {
+    font-variant: small-caps;
+    font-size: 20px;
+    font-weight:200px;
+    display:inline;
+    padding:20px;
+    font-family:sans-serif;
+
+}
+.nav:hover{
+    color:white;
+    cursor: pointer;
+}
+.home .dosa{
+    height:100%;
+    width:50%;
+    float:right;
+    opacity:0.8;
+    object-fit:contain;
+}
+.home h1{
+    padding:200px 10px 0px 100px;
+    font-size:50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.home h2{
+    font-variant: small-caps;
+    padding-left: 10px;
+    font-size:50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.home .order {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-left:200px;
+    color:white;
+    background-color:grey;
+    border-radius: 20px;
+    height:5vh;
+    width:15vw;
+    cursor: pointer;
+    font-weight: bold;
+}
+.order:hover{
+    color:grey;
+    background-color: white;
+}
+p{
+    padding-top:180px;
+    padding-left: 20px;
+}
